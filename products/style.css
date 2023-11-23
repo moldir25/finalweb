@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-group {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 0;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.card {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.jumbotron {
+    background-color:rgb(255, 233, 237);
+    color: #5a2740;
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.alert {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.video-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+}
+
+.fullscreen-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: pink;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+

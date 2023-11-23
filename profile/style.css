@@ -1,0 +1,55 @@
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.user-profile {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #fff; 
+    border-radius: 50%; 
+}
+
+.profile-details h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.profile-details p {
+    font-size: 16px;
+}
+
+.user-gallery {
+    margin-top: 30px;
+}
+
+.user-gallery h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}

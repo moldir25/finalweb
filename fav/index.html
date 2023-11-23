@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My favorites</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1 id="heading" class="heading">My favorites</h1>
+    <div id="flowers">
+        <img id="flower1" src="IMG_7674-5.png" alt="Flower 1">
+        <img id="flower2" src="IMG_1167 copy 2.png" alt="Flower 2">
+        <img id="flower3" src="IMG_3150-4.png" alt="Flower 3">
+        <img id="flower4" src="IMG_7247-2.png" alt="Flower 4">
+        <img id="flower5" src="IMG_7518-4.png" alt="Flower 5">
+        <img id="flower6" src="IMG_6881-4.png" alt="Flower 6">
+    </div>
+
+    <audio id="audio" src="5d15220318063f8.mp3"></audio>
+    <audio id="audioCorrect" src="jg-032316-sfx-elearning-correct-answer-sound-1.mp3"></audio>
+    <audio id="audioIncorrect" src="jg-032316-sfx-elearning-incorrect-answer-sound-3.mp3"></audio>
+
+    <h1 id="quizHeading" class="heading">Welcome to the Flower Quiz Game!</h1>
+    <div id="quiz" class="quiz-container">
+        <h2 id="question">Question 1: What color is a typical rose?</h2>
+        <div class="options">
+            <button id="option1" class="option">Red</button>
+            <button id="option2" class="option">Blue</button>
+            <button id="option3" class="option">Yellow</button>
+        </div>
+        <p id="result"></p>
+    </div>
+
+    <h1>Flower Popularity Monitoring System</h1>
+    <div class="chart-container">
+        <canvas id="flowerChart"></canvas>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
